@@ -1,8 +1,7 @@
+import MyEditor from "./components/TextEditor";
 import "./index.css";
 function App() {
-  return <p className="text-red-700 text-3xl font-bold underline">
-        
-  </p>;
+  return <MyEditor />;
 }
 
 export default App;
